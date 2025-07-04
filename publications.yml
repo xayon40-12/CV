@@ -1,0 +1,38 @@
+Touroux:2023rkv:
+  type: article
+  title: 'Efficient Solver of Relativistic Hydrodynamics with an Implicit Runge–Kutta Method'
+  author:
+  - Touroux, Nathan
+  - Kitazawa, Masakiyo
+  - Murase, Koichi
+  - Nahrgang, Marlene
+  date: 2024
+  page-range: '63'
+  serial-number:
+    arxiv: '2306.12696'
+    doi: 10.1093/ptep/ptae058
+  parent:
+    type: periodical
+    title: PTEP
+    issue: 6
+    volume: 2024
+Attieh:2024vbl:
+  type: article
+  title: 'Renormalized critical dynamics and fluctuations in model A in the Hohenberg-Halperin classification'
+  author:
+  - Attieh, Nadine
+  - Touroux, Nathan
+  - Bluhm, Marcus
+  - Kitazawa, Masakiyo
+  - Sami, Taklit
+  - Nahrgang, Marlene
+  date: 2025
+  page-range: '24906'
+  serial-number:
+    arxiv: '2408.06438'
+    doi: 10.1103/PhysRevC.111.024906
+  parent:
+    type: periodical
+    title: Phys. Rev. C
+    issue: 2
+    volume: 111
