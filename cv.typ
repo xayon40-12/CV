@@ -140,7 +140,10 @@
   institution: "LetScan",
   location: "Nantes, France",
 )[Co-founder of the Swygma startup (#link("https://www.swygma.com","swygma.com")) dedicated to efficient signal processing:
-- Technical leader of a team of 3 developpers
+  - Technical leader of a team of 3 developpers.
+  - Developpement of a CPU and GPU backend for signal processing.
+  - Creation and implementation in Rust of a compute server, a web client, and a native app connected by cyphered connections to analyse and synthesise signals.
+  - Creation of a mobile app dedicated to analyze baby emotions based on the signal analysis method of the startup and specifically trained AI.
 ]
 
 = Publications
