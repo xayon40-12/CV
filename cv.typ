@@ -2,6 +2,7 @@
   contact-info, cv, entry, item-pills, item-with-level, publications, side,
   social-links,
 )
+#import "@preview/fontawesome:0.5.0": (fa-icon)
 
 #show: cv.with(
   author: (
@@ -35,37 +36,24 @@
 )
 
 #side[
-  = About me
-  Pationate about programming languages from the common Java, through the esoteric Haskell, to the recents Rust. Strong interest to Type Theory and proof languages.
-
-  Adept at type level programming and optimization, I appreciate challenging programming tasks.
-  
-  = Interests
-  - Homotopy Type Theory
-  - Japanese Language
-  - Physical simulations
-  - Physics and graphics engines
-  - Artificial Intelligence
-  - Fantasy novels/comics/cartoon
-  - Board games
-
   = Contact
   #contact-info()
+  #social-links()
 
-  = Physics & Engineering
+  
+  = Technical Skills
   #item-pills((
+    "Rust | Haskell",
+    "git | awk | sed | bash | vim | helix",
+    "ArchLinux | MacOS",
+    "Parallel programming (CPU and GPU)",
+    "Encryption (TLS, WebSockets)",
     "Relativistic hydrodynamics",
     "Stochastic simulations",
     "Numerical integration",
-    "Parallel programming (CPU and GPU)",
-    "Cyphering (TLS, WebSockets)",
-    "ArchLinux/pacman",
-    "MacOS/brew",
-    "Tools: git, awk, sed, bash, vim, helix",
-    "Languages: Rust, Haskell",
   ))
 
-  = Other Skills
+  = Soft Skills
   #item-pills((
     "Creative Problem Solving",
     "Scientific Communication",
@@ -78,8 +66,31 @@
   #item-with-level("English", 5, subtitle: "Fluent")
   #item-with-level("Japanese", 2, subtitle: "Begginer")
   
-  #v(1fr)
-  #social-links()
+  = Hobbies & Interests
+  - Japanese Language
+  - Programming
+  - Artificial Intelligence
+  - Fantasy novels/comics/cartoon
+  - Board games
+
+]
+
+= About me
+#text(size: 9pt)[
+PhD student in theoretical physics pasionate about programming and simulations. Tried numerous programming languages, yet stayed true to Rust and Haskell. Driven by programming challenges, especially involving optimization and type level programming.
+]
+= Professional Experience
+
+#entry(
+  title: "Full stack Rust developper",
+  date: "2024 – 2025",
+  institution: "LetScan",
+  location: "Nantes, France",
+)[
+  Technical leader of a team of 3 developpers dedicated to efficient signal processing.
+  - Developpement of a CPU and GPU backend for efficient signal processing.
+  - Creation and implementation of a compute server, a web client, and a native app connected by encrypted connections to analyse and synthesise signals.
+  - Creation of a mobile app dedicated to the classification of baby emotions. For this purpose, an AI model was trained on the output of the signal analysis method developped by the company.
 ]
 
 = Education
@@ -87,12 +98,17 @@
 #entry(
   title: "PhD in Physicst: numerical fluid dynamics",
   date: "2020 - now",
-  institution: "IMT Atlantique, Osaka University",
+  institution: "IMT Atlantique, Subatech, Osaka University, YITP",
   location: "Nantes, France and Osaka, Japan",
-  [Double degree program PhD between france and Japan. Recognized as a Japanese governement scholar and granted the MEXT scholarship.
+  [Double degree program PhD between France and Japan. Granted the MEXT scholarship from the Japanese governement.
 
   #v(5pt)
   #underline([Courses]): Heavy-ion Collisions, Relativistic Hydrodynamics, Non-equilibrium Physics, Antimatter, Integrity and Ethics.
+
+  #v(5pt)
+  Dissertation: _"Efficient solver for relativistic hydrodynamics with implicit Runge-Kutta method"_
+  - Creation and implementation in Rust of a general implicit integration method applied to relativistic hydrodynamics.
+  - Emphasis on improved accuracy and efficiency compared to existing methods.
   ],
 )
 
@@ -101,50 +117,15 @@
   date: "2018 - 2020",
   institution: "Nantes University",
   location: "Nantes, France",
-  [#underline([Courses]): Quantum Field Theory, Perturbation Theory, Many Bodies, Solid State Physics, Atomic Physics, Group Theory, Signal Theory, Monte Carlo Simulations, Statisticsi, Numerical Analysis.
+  [#underline([Courses]): Quantum Field Theory, Perturbation Theory, N-body Problem, Solid State Physics, Atomic Physics, Group Theory, Signal Theory, Monte Carlo Simulations, Statistics, Numerical Analysis.
 
-  ],
-)
-
-= Academic Experience
-
-#entry(
-  title: "PhD in Physicst: numerical fluid dynamics",
-  date: "2020 - now",
-  institution: "IMT Atlantique, Subatech, Osaka University, YITP",
-  location: "Nantes, France and Osaka, Japan",
-  [Dissertation: _"Efficient solver for relativistic hydrodynamics with implicit Runge-Kutta method"_
-  - Creation and implementation in Rust of a general implicit integration method applied to relativistic hydrodynamics.
-  - Emphasis on improved accuracy and efficiency compared to existing methods.
-  Open source code: #link("https://github.com/xayon40-12/ImplHydro.git")
-  ],
-)
-
-#entry(
-  title: "Master thesis: dynamic of fluctiations in heavy-ion collisions",
-  date: "2020",
-  institution: "Subatech",
-  location: "Nantes, France",
-  [Thesis: _"Impact of the dimensions in the dynamics of fluctuations in heavy-ion collisions"_
+  #v(5pt)
+  Thesis: _"Impact of the dimensions in the dynamics of fluctuations in heavy-ion collisions"_
   - Creation and implementation in Rust of a Partial Differential Equation (PDE) solver on GPU.
-  - Focus on efficiency with GPU parallel programming required for time consuming schochastic simulations.
-  - Developpement of a PDE to GPU code compiler due to the various independent equations to be tested.
+  - Focus on efficiency with GPU parallel programming required by the time-consuming nature of schochastic simulations.
+  - Developpement of a PDE compiler for GPU to study various equations.
   ],
 )
-
-= Professional Experience
-
-#entry(
-  title: "Full stack developper",
-  date: "2024 – 2025",
-  institution: "LetScan",
-  location: "Nantes, France",
-)[Co-founder of the Swygma startup (#link("https://www.swygma.com","swygma.com")) dedicated to efficient signal processing:
-  - Technical leader of a team of 3 developpers.
-  - Developpement of a CPU and GPU backend for signal processing.
-  - Creation and implementation in Rust of a compute server, a web client, and a native app connected by cyphered connections to analyse and synthesise signals.
-  - Creation of a mobile app dedicated to analyze baby emotions based on the signal analysis method of the startup and specifically trained AI.
-]
 
 = Publications
 
@@ -154,9 +135,8 @@
 
 #entry(
   title: "BoxArray",
-  // institution: "Musician & Time Traveler",
   location: [#link("https://crates.io/crates/boxarray")],
   [
-      BoxArray is an open-source Rust library dedicated to safely allocate fixed-size arrays on the heap. Especially, it uses unsafe Rust for efficiency while guaranteeing correct usage through type level programing.
+      BoxArray is an open-source Rust library dedicated to safely allocate fixed-size arrays on the heap. Especially, it uses unsafe Rust code for efficiency while guaranteeing correct usage through type level programming.
   ],
 )
