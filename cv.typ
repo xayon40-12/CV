@@ -1,9 +1,8 @@
-#import "@preview/neat-cv:0.2.1": (
+#import "@preview/neat-cv:0.4.0": (
   contact-info, cv, entry, item-pills, item-with-level, publications, side,
   social-links,
 )
-#import "@preview/fontawesome:0.5.0": (fa-icon)
-
+#import "@preview/fontawesome:0.6.0": (fa-icon)
 #show: cv.with(
   author: (
     firstname: "Nathan",
@@ -11,7 +10,7 @@
     email: "touroux.nathan@gmail.com",
     address: [26 B rue des platanes\ 44300 Nantes\ France],
     phone: "+33 6 98 50 40 90",
-    position: ("PhD Student", "Computational fluid dynamics"),
+    position: pad(bottom: -1.5em)[PhD Student - Computational fluid dynamics],
     // website: "https://docbrownlabs.com",
     // twitter: "docbrown1955",
     // mastodon: "@docbrown@sciences.social",
@@ -69,7 +68,7 @@
   = Hobbies & Interests
   - Japanese Language
   - Programming
-  - Artificial Intelligence
+  - Numerical analysis
   - Fantasy novels/comics/cartoon
   - Board games
 
