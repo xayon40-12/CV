@@ -10,7 +10,7 @@
     email: "touroux.nathan@gmail.com",
     address: [26 B rue des platanes\ 44300 Nantes\ France],
     phone: "+33 6 98 50 40 90",
-    position: pad(bottom: -1.5em)[PhD Student - Computational fluid dynamics],
+    position: pad(bottom: -1.75em, top: -0.75em)[PhD Student - Computational fluid dynamics],
     // website: "https://docbrownlabs.com",
     // twitter: "docbrown1955",
     // mastodon: "@docbrown@sciences.social",
@@ -105,7 +105,7 @@ PhD student in theoretical physics. Pasionate about programming and simulations.
   #underline([Courses]): Heavy-ion Collisions, Relativistic Hydrodynamics, Non-equilibrium Physics, Antimatter, Integrity and Ethics.
 
   #v(5pt)
-  Dissertation: _"Efficient solver for relativistic hydrodynamics with implicit Runge-Kutta method"_
+  Dissertation: _"Efficient implicit solver for relativistic hydrodynamics in the dynamical modeling of heavy-ion collisions"_
   - Creation and implementation in Rust of a general implicit integration method applied to relativistic hydrodynamics.
   - Emphasis on improved accuracy and efficiency compared to existing methods.
   ],
