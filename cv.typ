@@ -76,7 +76,7 @@
 
 = About me
 #text(size: 9pt)[
-PhD student in theoretical physics pasionate about programming and simulations. Tried numerous programming languages, yet stayed true to Rust and Haskell. Driven by programming challenges, especially involving optimization and type level programming.
+PhD student in theoretical physics. Pasionate about programming and simulations. Tried numerous programming languages, yet stayed true to Rust and Haskell. Driven by programming challenges, especially involving optimization and type level programming.
 ]
 = Professional Experience
 
@@ -96,7 +96,7 @@ PhD student in theoretical physics pasionate about programming and simulations. 
 
 #entry(
   title: "PhD in Physicst: numerical fluid dynamics",
-  date: "2020 - now",
+  date: "2020 - 2025",
   institution: "IMT Atlantique, Subatech, Osaka University, YITP",
   location: "Nantes, France and Osaka, Japan",
   [Double degree program PhD between France and Japan. Granted the MEXT scholarship from the Japanese governement.
