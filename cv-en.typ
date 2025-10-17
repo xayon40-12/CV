@@ -10,8 +10,9 @@
     email: "touroux.nathan@gmail.com",
     address: [26 B rue des platanes\ 44300 Nantes\ France],
     phone: "+33 6 98 50 40 90",
+    // position: ("PhD Student", "Computational fluid dynamics"),
     position: pad(bottom: -1.75em, top: -0.75em)[PhD Student - Computational fluid dynamics],
-    // website: "https://docbrownlabs.com",
+    website: "https://xayon40-12.github.io",
     // twitter: "docbrown1955",
     // mastodon: "@docbrown@sciences.social",
     github: "xayon40-12",
@@ -30,6 +31,7 @@
   // body-font: ("Noto Sans", "Roboto"),
   // paper-size: "us-letter",
   // side-width: 4cm,
+  body-font-size: 10.5pt,
   // gdpr: false,
   // footer: auto,
 )

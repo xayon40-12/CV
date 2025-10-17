@@ -1,0 +1,6 @@
+#!/bin/sh
+
+typst compile cv-fr.typ
+typst compile cv-en.typ
+typst compile cv-en.typ cv-en.svg
+typst compile cv-fr.typ cv-fr.svg
