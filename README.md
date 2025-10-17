@@ -1,1 +1,1 @@
-![](cv-en.svg)
+![](outputs/cv-en.svg)
