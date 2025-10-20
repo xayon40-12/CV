@@ -11,7 +11,7 @@
     address: [26 B rue des platanes\ 44300 Nantes\ France],
     phone: "+33 6 98 50 40 90",
     // position: ("PhD Student", "Computational fluid dynamics"),
-    position: pad(bottom: -1.75em, top: -0.75em)[PhD Student - Computational fluid dynamics],
+    position: pad(bottom: -1.75em, top: -0.75em)[Full stack Rust developper],
     website: "https://xayon40-12.github.io",
     // twitter: "docbrown1955",
     // mastodon: "@docbrown@sciences.social",
@@ -31,7 +31,7 @@
   // body-font: ("Noto Sans", "Roboto"),
   // paper-size: "us-letter",
   // side-width: 4cm,
-  body-font-size: 10.5pt,
+  body-font-size: 10.1pt,
   // gdpr: false,
   // footer: auto,
 )
@@ -77,8 +77,8 @@
 ]
 
 = About me
-#text(size: 9pt)[
-PhD student in theoretical physics. Pasionate about programming and simulations. Tried numerous programming languages, yet stayed true to Rust and Haskell. Driven by programming challenges, especially involving optimization and type level programming.
+#text(size: 8.5pt)[
+Pasionate about programming and simulations. Tried numerous programming languages, yet stayed true to Rust and Haskell. Driven by programming challenges, especially involving optimization and type level programming.
 ]
 = Professional Experience
 
@@ -94,10 +94,34 @@ PhD student in theoretical physics. Pasionate about programming and simulations.
   - Creation of a mobile app dedicated to the classification of baby emotions. For this purpose, an AI model was trained on the output of the signal analysis method developped by the company.
 ]
 
+#entry(
+  title: "PhD: numerical fluid dynamics",
+  date: "2020 - 2024",
+  institution: "Subatech, Osaka University, YITP",
+  location: "Nantes, France and Osaka and Kyoto, Japan",
+  [
+  - Creation and implementation in Rust of a general implicit integration method applied to relativistic hydrodynamics.
+  - Emphasis on improved accuracy and efficiency compared to existing methods.
+  ],
+)
+
+#entry(
+  title: "Research internship",
+  date: "2018 - 2020",
+  institution: "Nantes University",
+  location: "Nantes, France",
+  [
+  - Creation and implementation in Rust of a Partial Differential Equation (PDE) solver on GPU.
+  - Focus on efficiency with GPU parallel programming required by the time-consuming nature of schochastic simulations.
+  - Developpement of a PDE compiler for GPU to study various equations.
+  ],
+)
+
+
 = Education
 
 #entry(
-  title: "PhD in Physicst: numerical fluid dynamics",
+  title: "PhD in Physics: numerical fluid dynamics",
   date: "2020 - 2025",
   institution: "IMT Atlantique, Subatech, Osaka University, YITP",
   location: "Nantes, France and Osaka, Japan",
@@ -105,11 +129,6 @@ PhD student in theoretical physics. Pasionate about programming and simulations.
 
   #v(5pt)
   #underline([Courses]): Heavy-ion Collisions, Relativistic Hydrodynamics, Non-equilibrium Physics, Antimatter, Integrity and Ethics.
-
-  #v(5pt)
-  Dissertation: _"Efficient implicit solver for relativistic hydrodynamics in the dynamical modeling of heavy-ion collisions"_
-  - Creation and implementation in Rust of a general implicit integration method applied to relativistic hydrodynamics.
-  - Emphasis on improved accuracy and efficiency compared to existing methods.
   ],
 )
 
@@ -119,12 +138,6 @@ PhD student in theoretical physics. Pasionate about programming and simulations.
   institution: "Nantes University",
   location: "Nantes, France",
   [#underline([Courses]): Quantum Field Theory, Perturbation Theory, N-body Problem, Solid State Physics, Atomic Physics, Group Theory, Signal Theory, Monte Carlo Simulations, Statistics, Numerical Analysis.
-
-  #v(5pt)
-  Thesis: _"Impact of the dimensions in the dynamics of fluctuations in heavy-ion collisions"_
-  - Creation and implementation in Rust of a Partial Differential Equation (PDE) solver on GPU.
-  - Focus on efficiency with GPU parallel programming required by the time-consuming nature of schochastic simulations.
-  - Developpement of a PDE compiler for GPU to study various equations.
   ],
 )
 

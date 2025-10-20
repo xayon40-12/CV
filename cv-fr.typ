@@ -9,7 +9,7 @@
     email: "touroux.nathan@gmail.com",
     address: [26 B rue des platanes\ 44300 Nantes\ France],
     phone: "+33 6 98 50 40 90",
-    position: pad(bottom: -1.75em, top: -0.75em)[Doctorant - Mécanique des fluides numérique],
+    position: pad(bottom: -1.75em, top: -0.75em)[Développeur Full Stack Rust],
     website: "https://xayon40-12.github.io",
     // twitter: "docbrown1955",
     // mastodon: "@docbrown@sciences.social",
@@ -39,7 +39,6 @@
   #contact-info()
   #social-links()
 
-  
   = Compétences\ Techniques
   #item-pills((
     "Rust | Haskell",
@@ -75,8 +74,8 @@
 ]
 
 = À propos de moi
-#text(size: 9pt)[
-Doctorant en physique théorique, passionné par la programmation et les simulations. Après avoir exploré de nombreux langages de programmation, je suis resté fidèle à Rust et Haskell. Je suis motivé par les défis de programmation, notamment ceux qui impliquent l'optimisation et la programmation au niveau des types.
+#text(size: 8.5pt)[
+Passionné par la programmation et les simulations. Après avoir exploré de nombreux langages de programmation, je suis resté fidèle à Rust et Haskell. Je suis motivé par les défis de programmation, notamment ceux qui impliquent l'optimisation et la programmation au niveau des types.
 ]
 
 = Expérience Professionnelle
@@ -93,23 +92,41 @@ Doctorant en physique théorique, passionné par la programmation et les simulat
   - Création d'une application mobile dédiée à la classification des émotions des bébés. Pour ce faire, un modèle d'IA a été entraîné sur les données issues de la méthode d'analyse de signal développée par l'entreprise.
 ]
 
+#entry(
+  title: "Doctorant : dynamique des fluides numérique",
+  date: "2020 - 2023",
+  institution: "Subatech, YITP",
+  location: "Nantes, France et Osaka et Kyoto, Japon",
+  [
+  - Création et implémentation en Rust d'une méthode d'intégration implicite générale appliquée à l'hydrodynamique relativiste.
+  - Mise en avant de l'amélioration de la précision et de l'efficacité par rapport aux méthodes existantes.
+  ],
+)
+
+#entry(
+  title: "Stage de recherche",
+  date: "2020",
+  institution: "Université de Nantes",
+  location: "Nantes, France",
+  [
+  - Création et implémentation en Rust d'un solveur d'Équations aux Dérivées Partielles (EDP) sur GPU.
+  - Accent mis sur l'efficacité avec la programmation parallèle sur GPU, requise par la nature coûteuse en temps des simulations stochastiques.
+  - Développement d'un compilateur d'EDP pour GPU afin d'étudier diverses équations.
+  ],
+)
+
 = Formation
 
 #entry(
   title: "Doctorat en Physique : dynamique des fluides numérique",
   date: "2020 - 2025",
   institution: "IMT Atlantique, Subatech, Osaka University, YITP",
-  location: "Nantes, France et Osaka, Japon",
+  location: "Nantes, France et Osaka et Kyoto, Japon",
   [Doctorat en double diplôme entre la France et le Japon. Boursier MEXT du gouvernement japonais.
 
   #v(5pt)
   #underline([Cours suivis]): Collisions d'ions lourds, Hydrodynamique relativiste, Physique hors d'équilibre, Antimatière, Intégrité et Éthique.
-
-  #v(5pt)
-  Thèse : _"Solveur implicite efficace pour l'hydrodynamique relativiste dans la modélisation dynamique des collisions d'ions lourds"_
-  - Création et implémentation en Rust d'une méthode d'intégration implicite générale appliquée à l'hydrodynamique relativiste.
-  - Mise en avant de l'amélioration de la précision et de l'efficacité par rapport aux méthodes existantes.
-  ],
+  ]
 )
 
 #entry(
@@ -118,11 +135,6 @@ Doctorant en physique théorique, passionné par la programmation et les simulat
   institution: "Université de Nantes",
   location: "Nantes, France",
   [#underline([Cours suivis]): Théorie quantique des champs, Théorie des perturbations, Problème à N-corps, Physique du solide, Physique atomique, Théorie des groupes, Théorie du signal, Simulations Monte Carlo, Statistiques, Analyse numérique.
-  #v(5pt)
-  Mémoire : _"Impact des dimensions dans la dynamique des fluctuations pour les collisions d'ions lourds"_
-  - Création et implémentation en Rust d'un solveur d'Équations aux Dérivées Partielles (EDP) sur GPU.
-  - Accent mis sur l'efficacité avec la programmation parallèle sur GPU, requise par la nature coûteuse en temps des simulations stochastiques.
-  - Développement d'un compilateur d'EDP pour GPU afin d'étudier diverses équations.
   ],
 )
 
