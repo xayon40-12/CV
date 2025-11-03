@@ -33,7 +33,6 @@
   // gdpr: false,
   // footer: auto,
 )
-
 #side[
   = Contact
   #contact-info()
@@ -41,7 +40,7 @@
 
   = Compétences\ Techniques
   #item-pills((
-    "Rust | Haskell",
+    "Rust | Haskell | Java | C++ | Python",
     "git | awk | sed | bash | vim | helix",
     "ArchLinux | MacOS",
     "Programmation parallèle (CPU et GPU)",

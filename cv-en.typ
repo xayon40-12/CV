@@ -44,7 +44,7 @@
   
   = Technical Skills
   #item-pills((
-    "Rust | Haskell",
+    "Rust | Haskell | Java | C++ | Python",
     "git | awk | sed | bash | vim | helix",
     "ArchLinux | MacOS",
     "Parallel programming (CPU and GPU)",
