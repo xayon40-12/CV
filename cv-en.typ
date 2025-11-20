@@ -11,7 +11,7 @@
     address: [26 B rue des platanes\ 44300 Nantes\ France],
     phone: "+33 6 98 50 40 90",
     // position: ("PhD Student", "Computational fluid dynamics"),
-    position: pad(bottom: -1.75em, top: -0.75em)[Full stack Rust developper],
+    position: pad(bottom: -1.75em, top: -0.75em)[Full stack Rust developper - Doctor in subatomic physics],
     website: "https://xayon40-12.github.io",
     // twitter: "docbrown1955",
     // mastodon: "@docbrown@sciences.social",

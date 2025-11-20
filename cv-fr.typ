@@ -9,7 +9,7 @@
     email: "touroux.nathan@gmail.com",
     address: [26 B rue des platanes\ 44300 Nantes\ France],
     phone: "+33 6 98 50 40 90",
-    position: pad(bottom: -1.75em, top: -0.75em)[Développeur Full Stack Rust],
+    position: pad(bottom: -1.75em, top: -0.75em)[Développeur Full Stack Rust - Docteur en physique subatomique],
     website: "https://xayon40-12.github.io",
     // twitter: "docbrown1955",
     // mastodon: "@docbrown@sciences.social",
