@@ -11,7 +11,7 @@
     address: [26 B rue des platanes\ 44300 Nantes\ France],
     phone: "+33 6 98 50 40 90",
     // position: ("PhD Student", "Computational fluid dynamics"),
-    position: pad(bottom: -1.75em, top: -0.75em)[Full stack Rust developper - Doctor in subatomic physics],
+    position: pad(bottom: -1.75em, top: -0.75em)[System and backend software engineer - Doctor in subatomic physics],
     website: "https://xayon40-12.github.io",
     // twitter: "docbrown1955",
     // mastodon: "@docbrown@sciences.social",
@@ -95,7 +95,7 @@ Pasionate about programming and simulations. Tried numerous programming language
 ]
 
 #entry(
-  title: "PhD: numerical fluid dynamics",
+  title: "High prerformance software developpement (HPC) and numerical simulation",
   date: "2020 - 2024",
   institution: "Subatech, Osaka University, YITP",
   location: "Nantes, France and Osaka and Kyoto, Japan",
