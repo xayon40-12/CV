@@ -105,7 +105,7 @@ Passionné par la programmation et les simulations. Après avoir exploré de nom
 #entry(
   title: "Stage de recherche",
   date: "2020",
-  institution: "Université de Nantes",
+  institution: "Subatech",
   location: "Nantes, France",
   [
   - Création et implémentation en Rust d'un solveur d'Équations aux Dérivées Partielles (EDP) sur GPU.

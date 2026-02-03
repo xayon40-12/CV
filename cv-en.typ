@@ -108,7 +108,7 @@ Pasionate about programming and simulations. Tried numerous programming language
 #entry(
   title: "Research internship",
   date: "2018 - 2020",
-  institution: "Nantes University",
+  institution: "Subatech",
   location: "Nantes, France",
   [
   - Creation and implementation in Rust of a Partial Differential Equation (PDE) solver on GPU.
