@@ -1,1 +1,1 @@
-![](outputs/cv-en.svg)
+![](outputs/cv-en_Nathan_Touroux.svg)
