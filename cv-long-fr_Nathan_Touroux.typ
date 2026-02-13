@@ -29,7 +29,7 @@
   // body-font: ("Noto Sans", "Roboto"),
   // paper-size: "us-letter",
   side-width: -2cm,
-  body-font-size: 12pt,
+  body-font-size: 13pt,
   // gdpr: false,
   // footer: auto,
 )
@@ -42,13 +42,14 @@ Ingénieur logiciel HPC et docteur en physique des particules avec 6 ans d'expé
 
 #table(
   columns: (1fr, 3fr),
-  [*Langage*], [Rust, Haskell, Java, C++, Python, Lua, Bash],
-  [*Framework*], [OpenGL, OpenCL, SDL2, WPGU, egui],
-  [*Outils*], [Git, Vim, Helix],
+  [*Langage*], [Rust, Haskell, Python, Java, C++, Lua, Bash, GLSL, WGSL],
+  [*Framework*], [WPGU, egui, burn, OpenGL, OpenCL, SDL2],
+  [*Outils*], [Git, Helix, Vim],
   [*Sécurité*], [SSL],
-  [*Système d'exploitation*], [Windows, MacOS, Linux (ArchLinux, Debian, Ubuntu)],
-  [*Méthode*], [KANBAN],
-  [*Autre*], [Pragrammation parallèle (CPU et GPU)],
+  [*Système d'exploitation*], [MacOS, Linux (ArchLinux, Debian, Ubuntu), Windows],
+  [*Méthode*], [Scrum, KANBAN],
+  // [*Databas*], [Postgresql],
+  [*Autre*], [Programmation parallèle (CPU et GPU)],
 )
 
 = Compétences fonctionnelles
@@ -62,15 +63,31 @@ Ingénieur logiciel HPC et docteur en physique des particules avec 6 ans d'expé
 = Expérience Professionnelles
 
 #entry(
-  title: "Développeur Full Stack Rust",
+  title: "Concepteur développeur Fullstack",
   date: "2024 – 2025",
   institution: "LetScan",
   location: "Nantes, France",
 )[
-  Leader technique d'une équipe de 3 développeurs dédiée au traitement efficace du signal.
-  - Développement d'un backend CPU et GPU pour le traitement efficace du signal.
-  - Création et implémentation d'un serveur de calcul, d'un client web et d'une application native connectés par des liaisons chiffrées pour analyser et synthétiser des signaux.
-  - Création d'une application mobile dédiée à la classification des émotions des bébés. Pour ce faire, un modèle d'IA a été entraîné sur les données issues de la méthode d'analyse de signal développée par l'entreprise.
+  Dans la section R&D dédiée au traitement efficace du signal, j'ai contribuer à la création d'une application dans le but d'une création de startup.\
+
+  
+  - *Équipe:* Leader technique dans une équipe de 3 développeurs. Travail à distance avec une personne à Nantes et deux personnes à Ancy.
+  - *Méthodologie:* Méthode de gestion projet Scrum (sprint de 2-3 semaines) avec Kanban
+  - *Contexte:* LetScan s'est focalisé sur la maintenance de cables par analyse de signaux inductifs dans des cables métaliques. Après de nombreuses années concentré sur un seul sujet, LetScan souhaite étendre ses horizon en développant une méthode d'analyse et des outils plus performants et à usages plus variés.
+  - *Objectif:* Créer des applications native et mobile de démonstration des capacités et usages de la methode d'analyse développé par LetScan, puis présenter ces applications à des investiseurs, en particulier lors de la conférence AI Everithing Global 2025.
+  - *Tâches réalisées:*
+    - Développement d'un backend CPU et GPU pour le traitement efficace du signal en Rust.
+    - Création et implémentation d'un serveur de calcul en Rust, d'un client web et d'une application native avec egui, connectés par des liaisons chiffrées TLS pour analyser et synthétiser des signaux.
+    - Création d'une application mobile en Rust avec egui dédiée à la classification des émotions des bébés. Pour ce faire, un modèle d'IA a été entraîné sur les données issues de la méthode d'analyse de signal développée par l'entreprise, puis intégré à l'application avec le framework Burn.
+    - Démarchage et présentation des nouveaux produits développé auprès d'investisseurs lors de la conférence international AI Everithing Global 2025.
+    - *Journée type:*
+      - Correction des regressions repérées par les tests unitaires ou les tests en utilisation.
+      - Conception et développement du backend en frontend en Rust avec egui.
+      - Daily de 15min pour faire un point sur les taches de la journée et du sprint en cours
+  - *Résultats obtenus:*
+    - Nouveau module de traitement du signal fonctionnel et de l'odre de 100 fois plus efficace que les prototype entérieurs de l'entreprise
+    - Production des applications de démonstration dans les délais avant la confécence AI Everithing Global 2025, ce qui à débauché à plusiours discussions de financements.
+  
 ]
 
 #colbreak()
