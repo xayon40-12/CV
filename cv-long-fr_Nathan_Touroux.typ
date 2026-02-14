@@ -72,7 +72,7 @@ Ingénieur logiciel HPC et docteur en physique des particules avec 6 ans d'expé
 
   
   - *Équipe:* Leader technique dans une équipe de 3 développeurs. Travail à distance avec une personne à Nantes et deux personnes à Ancy.
-  - *Méthodologie:* Méthode de gestion projet Scrum (sprint de 2-3 semaines) avec Kanban
+  - *Méthodologie:* Méthode de gestion projet Scrum (sprint de 3-4 semaines) avec Kanban
   - *Contexte:* LetScan s'est focalisé sur la maintenance de cables par analyse de signaux inductifs dans des cables métaliques. Après de nombreuses années concentré sur un seul sujet, LetScan souhaite étendre ses horizon en développant une méthode d'analyse et des outils plus performants et à usages plus variés.
   - *Objectif:* Créer des applications native et mobile de démonstration des capacités et usages de la methode d'analyse développé par LetScan, puis présenter ces applications à des investiseurs, en particulier lors de la conférence AI Everithing Global 2025.
   - *Tâches réalisées:*
@@ -99,6 +99,26 @@ Ingénieur logiciel HPC et docteur en physique des particules avec 6 ans d'expé
   [
   - Création et implémentation en Rust d'une méthode d'intégration implicite générale appliquée à l'hydrodynamique relativiste.
   - Mise en avant de l'amélioration de la précision et de l'efficacité par rapport aux méthodes existantes.
+  - *Équipe:* Doctorant dans une équipe de 4 personnes avec 3 Docteurs dont 2 avec le rôle d'encadrant.
+  - *Méthodologie:* Méthode de gestion de projet Scrum (sprint de 1-2 semaines)
+  - *Contexte:* L'étude du plasma de quark et de gluon (fluide à temperatures extrèmes) produit dans les accelerateurs de particules est notoirement difficile, en particulier d'un point de vue théorique. Des méthode de simulation numériques ont donc été développées pour approximer les résultats en première approche. Les plus précises de ces simulation necessite en générale des mois de simulations dans des centre de calculs. Des méthodes plus précises et efficaces sont donc préférables.
+  - *Objectif:* Développer une nouvelle méthode de simulation à la fois plus précise et plus efficace que les méthodes existantes pour le cas spécifique du plasma de quard et de gluons.
+  - *Tâches réalisées:*
+    - Concevoir une nouvelle méthode d'integration numérique spécialisé pour le contexte du plasma de quark et de gluons.
+    - Optimiser la méthode dans le cas de la simulation de fluides en trois dimensions d'espace.
+    - Développer en Rust un logicièle de sumulation de fluide incluant la nouvelle méthode.
+    - Intégré ce nouveau logiciel au sein d'un framework incluant toute les étapes de simulations correspondant aux accélérateurs de particules.
+    - Effectuer des simulation complètes sur le centre de calcul du laboratoire YITP.
+    - Analyser les résultats, aussi bien la précision des résultats physiques que l'efficacité et la stabilité des algorithmes.
+    - Rédiger et publier la nouvelle méthode et les résults dans un journal.
+    - Rédiger un publier une thèse auprès de l'IMT Atlantique et de l'université d'Osaka.
+    - *Journée type:*
+      - Conception et développement de la méthode, ou rédaction du papier/thèse
+      - Daily de 5-10min (en générale le midi)
+  - *Résultats obtenus:*
+    - Le logiciel de simulation codé en Rust est stable et produit les resulats attendus.
+    - La nouvelle méthode produit des resultats aussi précis en la moitié du temps habituel.
+    - La précision de cette nouvelle méthode est quadratic par rapport au temps de calcul, ce qui veut dire que doubler le temps de calcul rendra les resulats quatre fois plus précis là ou pour les méthodes éxistantes les résultats ne serait que deux fois plus précis.
   ],
 )
 
@@ -112,6 +132,13 @@ Ingénieur logiciel HPC et docteur en physique des particules avec 6 ans d'expé
   - Création et implémentation en Rust d'un solveur d'Équations aux Dérivées Partielles (EDP) sur GPU.
   - Accent mis sur l'efficacité avec la programmation parallèle sur GPU, requise par la nature coûteuse en temps des simulations stochastiques.
   - Développement d'un compilateur d'EDP pour GPU afin d'étudier diverses équations.
+  - *Équipe:*
+  - *Méthodologie:*
+  - *Contexte:*
+  - *Objectif:*
+  - *Tâches réalisées:*
+    - *Journée type:*
+  - *Résultats obtenus:*
   ],
 )
 
