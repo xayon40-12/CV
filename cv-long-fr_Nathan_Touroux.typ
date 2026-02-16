@@ -39,9 +39,10 @@
 Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'expérience, je conçois et développe des logiciels hautes performances au format ligne de commande ou application native/WEB/mobile. J'ai participé à plusieurs projets de recherche en laboratoire et de R&D en startup, où la rigueur, la fiabilité et les performances sont essentielles. Je maîtrise l'architecture logicielle, le calcul parallèle et les communications chiffrées TLS. Habitué à travailler en autonomie ainsi qu'en collaboration internationale.
 
 = Compétences Techniques
+#let cols = (21%, 1fr)
 
 #table(
-  columns: (1fr, 3fr),
+  columns: cols,
   [*Langage*], [Rust, Haskell, Python, Java, C++, Lua, Bash, GLSL, WGSL],
   [*Framework*], [WPGU, egui, burn, OpenGL, OpenCL, SDL2],
   [*Outils*], [Git, Helix, Vim],
@@ -55,7 +56,7 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
 = Compétences fonctionnelles
 
 #table(
-  columns: (1fr, 3fr),
+  columns: cols,
   [*Communication scientifique*], [Capacité à présenter un sujet et des résultats de façon concise (\<10 min) ou exhaustive (\>1h) devant un public expert (conférences internationales) ou débutant (festival, cours)],
 )
 
@@ -118,6 +119,7 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
     - Le logiciel de simulation codé en Rust est stable et produit les résultats attendus.
     - La nouvelle méthode produit des résultats aussi précis en la moitié du temps habituel.
     - La précision de cette nouvelle méthode est quadratique par rapport au temps de calcul, ce qui veut dire que doubler le temps de calcul rendra les résultats quatre fois plus précis, là où pour les méthodes existantes les résultats ne seraient que deux fois plus précis.
+    - Les resultats et la méthode ont été publiés en 2024 (cf. Publications en dernière page).
   ],
 )
 
@@ -128,19 +130,28 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
   institution: "Subatech",
   location: "Nantes, France",
   [
-  - Création et implémentation en Rust d'un solveur d'Équations aux Dérivées Partielles (EDP) sur GPU.
-  - Accent mis sur l'efficacité avec la programmation parallèle sur GPU, requise par la nature coûteuse en temps des simulations stochastiques.
-  - Développement d'un compilateur d'EDP pour GPU afin d'étudier diverses équations.
-  - *Équipe:*
-  - *Méthodologie:*
-  - *Contexte:*
-  - *Objectif:*
+  Dans le cadre de mon stage de master, j'ai créé et implémenté en Rust un solveur d'équations aux dérivées partielles (EDP) sur GPU.
+  - *Équipe:* Stagiaire avec une encadrante.
+  - *Méthodologie:* Aucune
+  - *Contexte:* Le supposé point critique de la matière QCD présente des particularités notoires en termes de fluctuations qui peuvent être étudiées statistiquement. Les types d'équations qui décrivent ces phénomènes sont des équations de diffusion et relaxation stochastiques, qui prennent la forme d'EDP. Une étude purement mathématique s'avère difficile, ce pourquoi les chercheurs s'orientent vers des simulations numériques. Ces simulations impliquent de l'aléatoire, ce qui demande de larges ressources en calcul. En général, ces simulations sont effectuées en une seule dimension d'espace (bien que le monde réel soit en trois dimensions) par limitation en termes de performances.
+  - *Objectif:* Étudier différentes EDP capables de décrire les phénomènes du point critique de la QCD. Concevoir et développer un logiciel de simulation capable de résoudre des EDP stochastiques (qui font intervenir de l'aléatoire) en trois dimensions d'espace, le tout dans un temps de calcul raisonnable.
   - *Tâches réalisées:*
-    - *Journée type:*
+    - Conception d'un format texte pour décrire les équations à résoudre dans le cadre physique (nombre de dimensions, volume du système à résoudre, …)
+    - Implémentation d'un logiciel en Rust capable de lire le format conçu et de produire une représentation intermédiaire d'équations dans le but de produire du code dans le futur.
+    - Conception et implémentation d'un compilateur d'EDP pour GPU en Rust. En utilisant la représentation intermédiaire des EDP, du code OpenCL est produit pour à la fois résoudre ces équations et analyser les données produites.
+    - Utilisation du logiciel produit pour résoudre différentes EDP et comparer aux résultats mathématiques connus ou aux attentes expérimentales.
+    - Rédaction d'un rapport de 25 pages sur le contexte, la méthodologie et les resultats obtenues.
+    - *Journée type:* Conception et implémentation en autonomie (période COVID).
   - *Résultats obtenus:*
+    - Le logiciel supporte de nombreuses EDP en une, deux et trois dimensions.
+    - Le compilateur de code GPU fonctionne correctement et produit du code efficace
+    - Le calcul parallèle sur GPU grâce au code OpenCL produit a permis d'effectuer des millions de simulations en trois dimensions par semaine, ce qui est nécessaire pour la précision statistique requise dans ce contexte physique.
+    - Les résultats produits par ce nouveau logiciel reproduisent correctement les résultats mathématiques connus.
+    - Ce logiciel a plus tard été en collaboration avec d'autres chercheurs pour produire des résultats au-delà de ceux mathématiques connus. Ces résultats ont été publiés en 2025 (cf. Publications en dernière page).
   ],
 )
 
+#colbreak()
 = Formation
 
 == Diplômes
@@ -151,6 +162,16 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
   institution: "IMT Atlantique, Subatech, Osaka University, YITP",
   location: "Nantes, France et Osaka et Kyoto, Japon",
   [Doctorat en double diplôme entre la France et le Japon. Boursier MEXT du gouvernement japonais.]
+)
+
+#entry(
+  title: "Master en Physique des particules",
+  date: "2018 - 2020",
+  institution: "Université de Nantes",
+  location: "Nantes, France",
+  [
+  // #underline([Cours suivis]): Théorie quantique des champs, Théorie des perturbations, Problème à N-corps, Physique du solide, Physique atomique, Théorie des groupes, Théorie du signal, Simulations Monte Carlo, Statistiques, Analyse numérique.
+  ],
 )
 
 == Formations
