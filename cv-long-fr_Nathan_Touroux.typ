@@ -87,7 +87,11 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
   - *Résultats obtenus:*
     - Nouveau module de traitement du signal fonctionnel et de l'ordre de 100 fois plus efficace que les prototypes antérieurs de l'entreprise.
     - Production des applications de démonstration dans les délais avant la conférence AI Everything Global 2025, ce qui a débouché sur plusieurs discussions de financements.
-  
+
+    #v(1em)
+    #table(columns: cols,
+    [*Stack technique*], [Rust (egui, WGPU, cpal, burn, futures, rayon, WASM), SSL, NextCloud (Deck)]
+    )  
 ]
 
 #colbreak()
@@ -120,6 +124,11 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
     - La nouvelle méthode produit des résultats aussi précis en la moitié du temps habituel.
     - La précision de cette nouvelle méthode est quadratique par rapport au temps de calcul, ce qui veut dire que doubler le temps de calcul rendra les résultats quatre fois plus précis, là où pour les méthodes existantes les résultats ne seraient que deux fois plus précis.
     - Les resultats et la méthode ont été publiés en 2024 (cf. Publications en dernière page).
+    
+    #v(1em)
+    #table(columns: cols,
+    [*Stack technique*], [Rust (Clap), Slurm]
+    )
   ],
 )
 
@@ -130,7 +139,8 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
   institution: "Subatech",
   location: "Nantes, France",
   [
-  Dans le cadre de mon stage de master, j'ai créé et implémenté en Rust un solveur d'équations aux dérivées partielles (EDP) sur GPU.
+  Dans le cadre de mon stage de master, j'ai créé et implémenté en Rust un solveur d'équations aux dérivées partielles (EDP) sur GPU.\
+  
   - *Équipe:* Stagiaire avec une encadrante.
   - *Méthodologie:* Aucune
   - *Contexte:* Le supposé point critique de la matière QCD présente des particularités notoires en termes de fluctuations qui peuvent être étudiées statistiquement. Les types d'équations qui décrivent ces phénomènes sont des équations de diffusion et relaxation stochastiques, qui prennent la forme d'EDP. Une étude purement mathématique s'avère difficile, ce pourquoi les chercheurs s'orientent vers des simulations numériques. Ces simulations impliquent de l'aléatoire, ce qui demande de larges ressources en calcul. En général, ces simulations sont effectuées en une seule dimension d'espace (bien que le monde réel soit en trois dimensions) par limitation en termes de performances.
@@ -140,7 +150,7 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
     - Implémentation d'un logiciel en Rust capable de lire le format conçu et de produire une représentation intermédiaire d'équations dans le but de produire du code dans le futur.
     - Conception et implémentation d'un compilateur d'EDP pour GPU en Rust. En utilisant la représentation intermédiaire des EDP, du code OpenCL est produit pour à la fois résoudre ces équations et analyser les données produites.
     - Utilisation du logiciel produit pour résoudre différentes EDP et comparer aux résultats mathématiques connus ou aux attentes expérimentales.
-    - Rédaction d'un rapport de 25 pages sur le contexte, la méthodologie et les resultats obtenues.
+    - Rédaction d'un rapport de 25 pages sur le contexte, la méthodologie et les résultats obtenues.
     - *Journée type:* Conception et implémentation en autonomie (période COVID).
   - *Résultats obtenus:*
     - Le logiciel supporte de nombreuses EDP en une, deux et trois dimensions.
@@ -148,6 +158,11 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
     - Le calcul parallèle sur GPU grâce au code OpenCL produit a permis d'effectuer des millions de simulations en trois dimensions par semaine, ce qui est nécessaire pour la précision statistique requise dans ce contexte physique.
     - Les résultats produits par ce nouveau logiciel reproduisent correctement les résultats mathématiques connus.
     - Ce logiciel a plus tard été en collaboration avec d'autres chercheurs pour produire des résultats au-delà de ceux mathématiques connus. Ces résultats ont été publiés en 2025 (cf. Publications en dernière page).
+
+    #v(1em)
+    #table(columns: cols,
+    [*Stack technique*], [Rust (Clap), OpenCL, Slurm]
+    )
   ],
 )
 
