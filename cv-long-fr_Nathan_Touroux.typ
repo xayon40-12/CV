@@ -77,7 +77,7 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
   - *Objectif:* Créer des applications natives et mobiles de démonstration des capacités et usages de la méthode d'analyse développée par LetScan, puis présenter ces applications à des investisseurs, en particulier lors de la conférence AI Everything Global 2025.
   - *Tâches réalisées:*
     - Développement d'un backend CPU et GPU pour le traitement efficace du signal en Rust.
-  - Création et implémentation d'un serveur de calcul en Rust, d'un client web et d'une application native avec egui, connectés par des liaisons chiffrées TLS pour analyser et synthétiser des signaux.
+    - Création et implémentation d'un serveur de calcul en Rust, d'un client web et d'une application native avec egui, connectés par des liaisons chiffrées TLS pour analyser et synthétiser des signaux.
     - Création d'une application mobile en Rust avec egui dédiée à la classification des émotions des bébés. Pour ce faire, un modèle d'IA a été entraîné sur les données issues de la méthode d'analyse de signal développée par l'entreprise, puis intégré à l'application avec le framework Burn.
     - Démarchage et présentation des nouveaux produits développés auprès d'investisseurs lors de la conférence internationale AI Everything Global 2025.
     - *Journée type:*
@@ -123,7 +123,7 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
     - Le logiciel de simulation codé en Rust est stable et produit les résultats attendus.
     - La nouvelle méthode produit des résultats aussi précis en la moitié du temps habituel.
     - La précision de cette nouvelle méthode est quadratique par rapport au temps de calcul, ce qui veut dire que doubler le temps de calcul rendra les résultats quatre fois plus précis, là où pour les méthodes existantes les résultats ne seraient que deux fois plus précis.
-    - Les resultats et la méthode ont été publiés en 2024 (cf. Publications en dernière page).
+    - Les résultats et la méthode ont été publiés en 2024 (cf. Publications en dernière page).
     
     #v(1em)
     #table(columns: cols,
