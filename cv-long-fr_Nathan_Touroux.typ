@@ -77,7 +77,9 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
   - *Objectif:* Créer des applications natives et mobiles de démonstration des capacités et usages de la méthode d'analyse développée par LetScan, puis présenter ces applications à des investisseurs, en particulier lors de la conférence AI Everything Global 2025.
   - *Tâches réalisées:*
     - Développement d'un backend CPU et GPU pour le traitement efficace du signal en Rust.
-    - Création et implémentation d'un serveur de calcul en Rust, d'un client web et d'une application native avec egui, connectés par des liaisons chiffrées TLS pour analyser et synthétiser des signaux.
+    - Création et implémentation d'un serveur de calcul en Rust, d'un client web et d'une application native avec egui et cpal, connectés par des liaisons chiffrées TLS pour analyser et synthétiser des signaux.
+    - Création de deux serveurs Archlinux sur Hostinger et chiffrement des partitions mémoire. Un serveur pour héberger le GitLab et un deuxième pour héberger les serveurs backend de calcul. Installation des certificats SSL pour les connection TLS chiffrées avec le client web.
+    - Édition du code source avec l'éditeur modal Helix, et versionnage avec l'outil git et un serveur GitLib interne.
     - Création d'une application mobile en Rust avec egui dédiée à la classification des émotions des bébés. Pour ce faire, un modèle d'IA a été entraîné sur les données issues de la méthode d'analyse de signal développée par l'entreprise, puis intégré à l'application avec le framework Burn.
     - Démarchage et présentation des nouveaux produits développés auprès d'investisseurs lors de la conférence internationale AI Everything Global 2025.
     - *Journée type:*
@@ -90,7 +92,7 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
 
     #v(1em)
     #table(columns: cols,
-    [*Stack technique*], [Rust (egui, WGPU, cpal, burn, futures, rayon, WASM), SSL, NextCloud (Deck)]
+    [*Stack technique*], [Rust (egui, WGPU, cpal, burn, futures, rayon, WASM), SSL/TLS, NextCloud (Deck), Git, GitLab, LUKS]
     )  
 ]
 
@@ -111,9 +113,10 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
     - Concevoir une nouvelle méthode d'intégration numérique spécialisée pour le contexte du plasma de quarks et de gluons.
     - Optimiser la méthode dans le cas de la simulation de fluides en trois dimensions d'espace.
     - Développer en Rust un logiciel de simulation de fluide incluant la nouvelle méthode.
+    - Édition du code source avec l'éditeur modal Helix, et versionnage avec l'outil git et Github.
     - Intégrer ce nouveau logiciel au sein d'un framework incluant toutes les étapes de simulations correspondant aux accélérateurs de particules.
-    - Effectuer des simulations complètes sur le centre de calcul du laboratoire YITP.
-    - Analyser les résultats, aussi bien la précision des résultats physiques que l'efficacité et la stabilité des algorithmes.
+    - Effectuer des simulations complètes sur le centre de calcul du laboratoire YITP en utilisant l'outil d'ordonnancement de taches Slurm pour soumettre les dizaines de milliers de taches nécessaires.
+    - Analyser les résultats à l'aide de Python (matplotlib), aussi bien la précision des résultats physiques que l'efficacité et la stabilité des algorithmes.
     - Rédiger et publier la nouvelle méthode et les résultats dans un journal.
     - Rédiger et publier une thèse auprès de l'IMT Atlantique et de l'université d'Osaka.
     - *Journée type:*
@@ -127,7 +130,7 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
     
     #v(1em)
     #table(columns: cols,
-    [*Stack technique*], [Rust (Clap), Slurm]
+    [*Stack technique*], [Rust (Clap), Python, Helix, Slurm, Git, Github]
     )
   ],
 )
@@ -150,6 +153,7 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
     - Implémentation d'un logiciel en Rust capable de lire le format conçu et de produire une représentation intermédiaire d'équations dans le but de produire du code dans le futur.
     - Conception et implémentation d'un compilateur d'EDP pour GPU en Rust. En utilisant la représentation intermédiaire des EDP, du code OpenCL est produit pour à la fois résoudre ces équations et analyser les données produites.
     - Utilisation du logiciel produit pour résoudre différentes EDP et comparer aux résultats mathématiques connus ou aux attentes expérimentales.
+    - Utilisation de l'outils d'ordonnancement Slurm pour soumettre des milliers d'execution du logiciel sur le cluster de calcul GPU de l'in2p3.
     - Rédaction d'un rapport de 25 pages sur le contexte, la méthodologie et les résultats obtenues.
     - *Journée type:* Conception et implémentation en autonomie (période COVID).
   - *Résultats obtenus:*
@@ -161,7 +165,7 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
 
     #v(1em)
     #table(columns: cols,
-    [*Stack technique*], [Rust (Clap), OpenCL, Slurm]
+    [*Stack technique*], [Rust (Clap), OpenCL, Helix, Slurm, Git, Github]
     )
   ],
 )
