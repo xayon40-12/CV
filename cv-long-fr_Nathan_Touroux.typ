@@ -117,8 +117,8 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
     - Intégrer ce nouveau logiciel au sein d'un framework incluant toutes les étapes de simulations correspondant aux accélérateurs de particules.
     - Effectuer des simulations complètes sur le centre de calcul du laboratoire YITP en utilisant l'outil d'ordonnancement de taches Slurm pour soumettre les dizaines de milliers de taches nécessaires.
     - Analyser les résultats à l'aide de Python (matplotlib), aussi bien la précision des résultats physiques que l'efficacité et la stabilité des algorithmes.
-    - Rédiger et publier la nouvelle méthode et les résultats dans un journal.
-    - Rédiger et publier une thèse auprès de l'IMT Atlantique et de l'université d'Osaka.
+    - Rédiger en LaTeX et publier la nouvelle méthode et les résultats dans un journal.
+    - Rédiger en LaTeX et publier une thèse auprès de l'IMT Atlantique et de l'université d'Osaka.
     - *Journée type:*
       - Conception et développement de la méthode, ou rédaction du papier/thèse
       - Daily de 5-10min (en général le midi).
@@ -154,7 +154,7 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
     - Conception et implémentation d'un compilateur d'EDP pour GPU en Rust. En utilisant la représentation intermédiaire des EDP, du code OpenCL est produit pour à la fois résoudre ces équations et analyser les données produites.
     - Utilisation du logiciel produit pour résoudre différentes EDP et comparer aux résultats mathématiques connus ou aux attentes expérimentales.
     - Utilisation de l'outils d'ordonnancement Slurm pour soumettre des milliers d'execution du logiciel sur le cluster de calcul GPU de l'in2p3.
-    - Rédaction d'un rapport de 25 pages sur le contexte, la méthodologie et les résultats obtenues.
+    - Rédaction en LaTeX d'un rapport de 25 pages sur le contexte, la méthodologie et les résultats obtenues.
     - *Journée type:* Conception et implémentation en autonomie (période COVID).
   - *Résultats obtenus:*
     - Le logiciel supporte de nombreuses EDP en une, deux et trois dimensions.
@@ -168,6 +168,38 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
     [*Stack technique*], [Rust (Clap), OpenCL, Helix, Slurm, Git, Github]
     )
   ],
+)
+
+#colbreak()
+= Projets Personnels
+
+== Projets récents
+
+- boxarray (https://crates.io/crates/boxarray) : publication sur crates.io de "boxarray", une bibliothèque de code bas niveau en Rust pour allouer des tableaux de taille fixe dans la heap.
+- eriun (https://github.com/xayon40-12/eriun) : développement d'un langage de preuve basé sur la théorie des types avec parser et type checker en Haskell et coloration syntaxique avec tree-sitter.
+- phase (https://github.com/xayon40-12/phase) : simulation de transition de phase au format WEB avec accélération GPU intégralement codée en Rust (dont les shaders) avec egui, WGPU et RustGPU. Une démo WEB est disponible sur Github Pages : https://xayon40-12.github.io/phase.
+
+== Développement de jeux videos
+
+- Rogue-like 3D avec génération procédurale de terrain en Java LWJGL, OpenGL et GLSL.
+- Battle Royale 2D en réseau en Java Swing.
+- Sokoban 2 joueurs en réseau en C++ SDL2.
+
+== Développement de simulations et moteurs
+
+- Boids (nuée d'oiseaux sous forme de nuage de points) en 3D en C++ OpenGL.
+- Jeu de la vie avec l'algorithme optimisé HashLife en C++ SDL.
+- Moteur graphique par lancé de rayons (ray marching, ray casting) en C++ OpenGL pour simuler de l'optique (réflexion, réfraction) ou pour afficher des fractales 3D.
+
+== Compétition de code
+
+- Trois fois vainqueur par équipe du hackathon Cap\@Hack de Capgemini à Nantes.
+- Niveau 17 et top 2% sur CodinGame (https://www.codingame.com/profile/22dcb89a9dda3a75ae051973fcf1efa55251933) 
+- Participation aux éditions 2017, 2018, 2019 et 2020 de Advent of Code (https://adventofcode.com) en Java, Kotlin, Rust et Haskell respectivement.
+
+#v(1em)
+#table(columns: cols,
+[*Stack technique*], [Rust (WGPU, RustGPU, egui), C++ (SDL/SDL2), Haskell, Java (Swing, LWJGL), Kotlin, OpenGL, Git, Github]
 )
 
 #colbreak()
@@ -211,6 +243,7 @@ Ingénieur logiciel HPC et docteur en physique des particules avec six ans d'exp
 == Langues
 
 #box(width: 33%, {
+  item-with-level("Français", 5, subtitle: "Courant")
   item-with-level("Anglais", 5, subtitle: "Courant")
   item-with-level("Japonais", 2, subtitle: "Débutant")
 })

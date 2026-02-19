@@ -1,8 +1,0 @@
-#!/bin/sh
-
-typst compile cv-fr_Nathan_Touroux.typ outputs/cv-fr_Nathan_Touroux.pdf
-typst compile cv-long-fr_Nathan_Touroux.typ outputs/cv-long-fr_Nathan_Touroux.pdf
-typst compile cv-en_Nathan_Touroux.typ outputs/cv-en_Nathan_Touroux.pdf
-
-typst compile cv-fr_Nathan_Touroux.typ outputs/cv-fr_Nathan_Touroux.svg
-typst compile cv-en_Nathan_Touroux.typ outputs/cv-en_Nathan_Touroux.svg
